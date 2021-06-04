@@ -1,0 +1,93 @@
+.header-background{
+    background: rgb(60, 94, 208) !important;
+}
+.thead-background{
+    background: rgb(196, 60, 208) !important;
+}
+
+.icon-material{
+    color: rgb(60, 94, 208) !important;
+
+}
+body{
+    color: rgb(41, 41, 41) !important;
+}
+.navbar{
+    background: rgb(255, 89, 89) !important;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.178);
+}
+.navbar a{
+    color:#fff !important;
+}
+.btn-outline-primary i{
+    padding: 1rem;
+    color: rgb(255, 89, 89) ;
+}
+.btn-outline-primary{
+    left: 3%;
+    top: 10%;
+    position: absolute;
+    border-radius: 50%;
+    border: solid 1px rgb(255, 89, 89) ;
+}
+.btn-outline-primary:hover{
+    background: rgb(107, 107, 107);
+    border: none;
+}
+.btn-outline-primary:hover i{
+    color: #fff;
+}
+
+
+ul{
+    padding: 0 !important;
+    list-style: none;
+}
+ul li{
+    display: flex;
+    justify-content:space-between;
+}
+ul li span{
+    font-weight: 600;
+}
+
+
+.card{
+    position: relative;
+}
+.container-actions{
+    left: 0;
+    width: 100%;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    position: absolute;
+    background: rgb(107, 107, 107);
+}
+.container-actions i{
+    color: #fff;
+}
+
+/* card - watch */
+
+.container .card-new{
+    border: none !important;
+    width: 30%;
+    margin: 4rem auto !important;
+    border: solid 1px rgb(199, 199, 199) !important;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.btn-danger{
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.container-images-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .image-card{
+    width: 150px;
+    height: 140px;
+    border-radius: 50%;
+}
